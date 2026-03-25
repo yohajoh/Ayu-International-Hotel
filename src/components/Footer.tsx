@@ -2,6 +2,7 @@ import { Mail, Phone, MapPin, Facebook, Instagram, Twitter } from 'lucide-react'
 
 export default function Footer() {
   return (
+    // footer
     <footer className="bg-[#0A1F44] text-white pt-16 pb-8">
       <div className="container mx-auto px-4 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
