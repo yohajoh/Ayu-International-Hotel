@@ -9,7 +9,7 @@ interface NavigationProps {
 export default function Navigation({ currentPage, onNavigate }: NavigationProps) {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-
+// this make the navigation bar link to scroll smoothly to the top
   useEffect(() => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 50);
